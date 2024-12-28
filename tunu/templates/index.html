@@ -1,0 +1,677 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+  <title>Jagadisha Portfolio</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png'%}"  />
+  <link href="{% static 'img/apple-touch-icon.png'%}" rel="apple-touch-icon" />
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" />
+    <!-- Bootstrap 5 CDN -->
+
+
+   
+  <!-- Vendor CSS Files -->
+  <link href= "{% static 'vendor/aos/aos.css' %}" rel="stylesheet" />
+  <link href= "{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" />
+  <link href= "{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}"rel="stylesheet" />
+  <link href= "{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet" />
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet" />
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet" />
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/style.css'%}" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li>
+          <a href="#" id="dark-mode-toggle" class="nav-link scrollto"><i class="bx bx-moon"></i> <span>Dark
+              Mode</span></a>
+        </li>
+        <li>
+          <a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
+        </li>
+        <li>
+          <a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a>
+        </li>
+        <li>
+          <a href="#skills" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Skills</span></a>
+        </li>
+        <li>
+          <a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
+        </li>
+        <li>
+          <a href="#experience" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Experience</span></a>
+        </li>
+        <li>
+          <a href="#services" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Services</span></a>
+        </li>
+        <li>
+          <a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- .nav-menu -->
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center" style="background: url('{% static 'img/demo-1.png' %}') no-repeat top right;   width: 100%;
+  height: 100vh;
+
+
+  background-size: cover;
+  position: relative;">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Jagadisha Palai</h1>
+      <p>I'm <span class="typed" data-typed-items="a Python Full Stack Software Developer "></span>
+      <div class="social-links">
+        <a href="#" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="#" target="_blank" class="google-plus"><i class="bx bxl-youtube"></i></a>
+        <a href="#" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>About</h2>
+          <p>
+            Full Stack Developer Trainee with 9 months training from
+            Besant Technologies in multiple skills i.e HTML5,CSS3,
+            JS ,React Js ,Tailwind css,Mysql.Bootstrap 5 and Django framework .Can work
+            well under pressure and make the best of any situation.
+            Passionate individual with great interpersonal and
+            communication skills.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="{% static 'img/jaggu.jpg'%}" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Full Stack Engineer </h3>
+            <p class="fst-italic">
+              Any fool can write code that a computer can understand. Good
+              programmers write code that humans can understand. Sometimes it
+              pays to stay in bed on Monday, rather than spending the rest of
+              the week debugging Monday’s code.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Birthday:</strong> <span>11th March</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Email:</strong>
+                    <span>palaijagadisa2001@gmail.com</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Phone:</strong> <span>+91 9938768395</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>City:</strong> <span>Bhadrak,Odisha, India</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Age:</strong>
+                    <span>24</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Degree:</strong> <span>B.Tech(EE)</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Website:</strong>
+                    <span><a href="https://jagadishajagresturantdemo.netlify.app" target="_blank"></a> </span>
+                    
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Freelance:</strong> <span>Not Available</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              I am a self-taught python programmer with a deep passion for
+              creating innovative and engaging web projects. I am committed to
+              staying up-to-date with the latest trends and best practices in
+              the industry. Although I don’t have any professional experience
+              yet, I've gained a wealth of knowledge and skills through my
+              personal projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>
+            Attitude is more important than the past, than education, than
+            money, than circumstances, than what people do or say. It is more
+            important than appearance, giftedness, or skill.
+          </p>
+        </div>
+
+        <div class="row skills-content">
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">Python / Django<i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">HTML, CSS and JavaScript<i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">/BootStrap/Tailwind CSS/Material UI >><i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">React Js <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">SQL / PostgreSQL/Mongo DB> <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">GIT & GITHUB <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>
+            Talented individual with knowledge of designing and development
+            tools and coding languages.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Jagadisha </h4>
+              <p>
+                <em>A dedicated and skilled Python Progammer with
+                  specialization in Django framework, committed to staying
+                  current with new technologies & industry trends. Passionate
+                  of coding and contribute for the best with my skills for my
+                  service. Work To Achieve The Highest Goal.</em>
+              </p>
+              <ul>
+                <li>Bhadrak, Odisha, India</li>
+                <li>+91 9938768395</li>
+                <li>palaijagadisha2001@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>BACHELOR OF TECHNOLOGY - ELECTRICAL ENGINEERING</h4>
+              <h5>Sept. 2018 - 2022</h5>
+              <p>
+                <em>Mordern Engineering & Management Studies
+                  Balasore ,Odisha
+                </em>
+              </p>
+              <p>
+                CGPA - 7.46
+              </p>
+            </div>
+            <div class="resume-item">
+              <h4>12TH - BSE</h4>
+              <h5>2016 - 2018</h5>
+              <p><em>Nabaghana College Karangadia </em></p>
+              <p>
+                Completed 12 Science and learned alot of
+                technicals and theoritical as well as practical knowledge.
+              </p>
+            </div>
+            <h3 class="resume-title">10th Board HSC</h3>
+            <div class="resume-item pb-0">
+              <h4>B.C High School Ertal</h4>
+              <ul>
+                <li>2016(Odisha)(OdiaMedium)</li>
+               
+                <li><p>School introduces us to various career options through subject-specific learning, career counseling, and guest lectures. This foundation helps students discover their passions and potential future paths.</p></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Personal Projects</h3>
+            <div class="resume-item">
+              <a href="https://jagadishajagumedicaltemplate.netlify.app" target="_blank">
+                <h4>Django e-Commerce Website</h4>
+              </a>
+              <h5>June 2024 - July 2024</h5>
+              <p><em>Bhadrak,Odisha , India </em></p>
+              <ul>
+                <li>
+                  Developed a comprehensive e-Commerce website using Django, featuring user authentication, product
+                  browsing, dynamic
+                  category filters, and robust security measures.
+                </li>
+                <li>
+                  Engineered an advanced cart system with automated email notifications for account activation and order
+                  confirmations;
+                  boosted customer retention by 20% and increased repeat purchases by 15%.
+                </li>
+                <li>
+                  Implemented project deployment on PythonAnywhere, ensuring scalable infrastructure that managed
+                  15,000+ daily
+                  transactions with a 25% improvement in load handling and 35% increase in processing speed
+                </li>
+                <li>
+                  Utilized a tech stack including Python, HTML, CSS, JavaScript, and SQLite for full-stack development,
+                  delivering a
+                  seamless and user-friendly shopping experience.
+                </li>
+                <li>
+                  <b>Technologies Used:</b> Python, Django, Bootstrap, Git, GitHub, Google and Facebook OAuth
+                </li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <a href="https://jagadishajagureactdemo.netlify.app" target="_blank">
+                <h4> Using React & Bootsrap & Django</h4>
+              </a>
+              <h5>October 2023 - November 2023</h5>
+              <p><em>Bhadrak , Odisha , India</em></p>
+              <ul>
+                <li>
+                  Developed a robust full-stack web application for user authentication using React for the frontend
+                  and Django REST Framework for the backend, enabling seamless user registration, login, and secure
+                  session management.
+                </li>
+                <li>
+                  Implemented a token-based authentication system using JSON Web Tokens (JWT), allowing users to
+                  authenticate without the need for traditional sessions. This ensures faster and more scalable
+                  authentication for future integrations.
+                </li>
+                <li>
+                  Built a secure login and registration system with email verification, password strength validation,
+                  and bcrypt for hashing passwords, ensuring the highest security standards.
+                </li>
+                <li>
+                  Developed a password reset functionality with email verification to help users recover their
+                  accounts securely and effortlessly.
+                </li>
+                <li>
+                  <b>Technology Used:</b> React, Django, Django REST Framework, JWT, Bootstrap, PostgreSQL
+                  (development), React Router, GitHub (for version control)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Resume Section -->
+
+    <!-- ======= Experience Section ======= -->
+    <section id="experience" class="experience">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title text-center">
+          <h2>System Support Engineer</h2>
+          <h6> Wipro Enterprises PVT LTD </h6>
+          <p>System configuration and troubleshoot ,Profile
+            configuration ,Printer and scanner configuration,
+            Outlook configuration , VPN Issue solving(02 years) </p>
+          <h2>Python Full stack Developer</h2>
+          <h6>Fresher</h6>
+          <p>Fresher Software Engineer | Skilled in Full-Stack
+            Development with Hands-On Experience in Python,
+            Django,
+            React.js, and Django| Driven to Build High-Quality, Scalable Applications</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="timeline-item">
+              <h4>Software Developer Intern - <span>Besant Techonologies </span> | <span>Sept 2022 - 2023</span>
+              </h4>
+
+              <p><strong>Key Responsibilities:</strong></p>
+              <ul>
+                <li>Developed and maintained web applications using <b>Python (Django) and React.js</b>,
+                  automating key
+                  processes like exam creation, admit card generation, and student ID card creation.</li>
+                <li>Collaborated with cross-functional teams to design, develop, and deploy scalable applications,
+                  ensuring smooth integration of various features for improved efficiency.</li>
+                <li>Enhanced internal systems, improving usability for teachers and administrators, leading to faster
+                  exam creation, quicker admit card processing, and simplified ID card generation.</li>
+                <li>Automated the generation of admit cards and student ID cards, ensuring that all necessary student
+                  details were included and helping to streamline the administrative processes.</li>
+                <li>Contributed to the testing and documentation of software processes to ensure the systems operated
+                  smoothly and the workflow was well-organized.</li>
+                <li>Collaborated with teams to understand project needs, troubleshoot problems, and ensure all
+                  components of the system worked seamlessly together.</li>
+                <li>Designed and implemented a <b>Social Auto Posting features especially LinkedIn auto-posting
+                    system</b> to
+                  schedule and share posts automatically on the company's page,
+                  ensuring regular updates and professional engagement on the platform.
+                </li>
+                <li>Integrated <b>AI-driven content generation</b> to create engaging topics, detailed write-ups, and
+                  concise
+                  key points, making content creation faster and more efficient.
+                </li>
+                <li>Worked closely with the team to align the system with the company's content strategy related to
+                  SaaS,
+                  making it easier to share key updates and announcements.
+                </li>
+              </ul>
+
+              <p><strong>Key Achievements:</strong></p>
+              <ul>
+                <li>Successfully automated the exam generation process, resulting in significant time savings for
+                  teachers and an overall increase in productivity.</li>
+                <li>Streamlined the admit card generation process, reducing the time spent on generating and
+                  distributing them to students, which helped improve overall efficiency.</li>
+                <li>Developed an easy-to-use tool for creating student ID cards, simplifying the process for the
+                  school while ensuring that the ID cards included all necessary information.</li>
+                <li>Successfully launched the <b>LinkedIn auto-posting tool</b>, which led to a <b>15% increase in
+                    engagement</b>
+                  with posts and a stronger online presence.
+                </li>
+                <li>Used AI to generate compelling topics and their detailed content, Summarizing each into 5 main key
+                  points for easy consumption and effective messaging.
+                </li>
+              </ul>
+              <p><strong>Additional Impact:</strong></p>
+              <li>Contributed to a <b>20% increase</b> in overall company profits by improving operational efficiency
+                and
+                customer satisfaction.</li>
+              <li>Helped the team focus on strategic initiatives by reducing the manual effort involved in social
+                media management and content generation.
+              </li>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Experience Section -->
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Bringing Ideas to Life with Full-Stack Development, Custom Web Applications, and Scalable Solutions | From
+            Concept to Code, I Create Robust, User-Friendly Software Tailored to Your Needs</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+              <div class="icon">
+                <i class="bx bx-code-alt"></i>
+              </div>
+              <h4><a href="">Full-Stack Development</a></h4>
+              <p>End-to-end development across front-end and back-end, creating responsive and dynamic web applications
+                tailored to your business needs.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="icon-box iconbox-orange">
+              <div class="icon">
+                <i class="bx bx-data"></i>
+              </div>
+              <h4><a href="">Database Design & Management</a></h4>
+              <p>Optimized and scalable database solutions, including SQL and NoSQL, to store and manage data
+                effectively and securely.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
+            data-aos-delay="300">
+            <div class="icon-box iconbox-pink">
+              <div class="icon">
+                <i class="bx bx-shield"></i>
+              </div>
+              <h4><a href=""> Development & Integration</a></h4>
+              <p>Building and integrating RESTful APIs for seamless communication between different software components
+                and third-party services.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-yellow">
+              <div class="icon">
+                <i class="bx bx-layer"></i>
+              </div>
+              <h4><a href="">UI/UX Design & Development</a></h4>
+              <p>Creating intuitive, user-friendly interfaces with attention to detail, ensuring a smooth and enjoyable
+                user experience across all devices.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-red">
+              <div class="icon">
+                <i class="bx bx-server"></i>
+              </div>
+              <h4><a href="">Deploy & Deployment</a></h4>
+              <p>Deploying and managing applications on nrtifly and GitHub platforms , ensuring
+                scalability,
+                reliability, and performance.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-teal">
+              <div class="icon">
+                <i class="bx bx-code-alt"></i>
+              </div>
+              <h4><a href="">Code Review & Optimization</a></h4>
+              <p>Improving code quality and performance through detailed review and optimization, ensuring maintainable,
+                efficient, and robust solutions.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Services Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+    
+        <div class="row mt-1">
+          <!-- Contact Information -->
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address mb-4">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Bhadrak, Odisha, India</p>
+              </div>
+              <div class="email mb-4">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>Palaijagadisha2001@gmail.com</p>
+              </div>
+              <div class="phone mb-4">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 9938768395</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Contact Form -->
+          <div class="col-lg-8 mt-5 mt-lg-0">
+            <form method="POST" action="">
+              {% csrf_token %}
+              <div class="row">
+                <!-- Name Field -->
+                <div class="col-12 col-md-6 mb-3">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input type="text" id="name" class="form-control" name="name" required>
+                </div>
+                <!-- Email Field -->
+                <div class="col-12 col-md-6 mb-3">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input type="email" id="email" class="form-control" name="email" required>
+                </div>
+                <!-- Subject Field -->
+                <div class="col-12 col-md-6 mb-3">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input type="text" id="subject" class="form-control" name="subject" required>
+                </div>
+                <!-- Message Field -->
+                <div class="col-12 col-md-6 mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea id="message" class="form-control" name="message" rows="6" required></textarea>
+                </div>
+              </div>
+              <div class="text-center mt-3">
+                <button type="submit" class="btn btn-primary">Send Message</button>
+              </div>
+            </form>
+          
+            {% if success %}
+            <div class="sent-message mt-4">Your message has been sent. Thank you for visiting Jaggu's Portfolio!</div>
+            {% endif %}
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+
+
+    <!-- End Contact Section -->
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Jagadisha Palai</h3>
+      <p>
+        Thank you for visiting my personal portfolio website. Connect with me
+        over socials.
+      </p>
+      <div class="social-links">
+        <a href="#" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="#" target="_blank" class="google-plus"><i class="bx bxl-youtube"></i></a>
+        <a href="#" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>2024</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by
+        <a href="#">Jagadisha Palai</a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/typed.js/typed.umd.js' %}"></script>
+  <script src="{% static 'vendor/waypoints/noframework.waypoints.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>
+
